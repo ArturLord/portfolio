@@ -12,9 +12,9 @@ const Contact = () => {
     <Section ref={ref} className="section" id="contact">
       {inView && (
         <Container
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1500"
+        data-aos="zoom-out-down"
+     data-aos-anchor-placement="top-center"
+          data-aos-duration="1700"
         >
           <Title>Связаться со мной</Title>
           <ContactBlock>

@@ -30,7 +30,7 @@ const Work = () => {
           <SubContainer>
 
               <div
-              data-aos="fade-down"
+             data-aos="zoom-in-up"
               data-aos-duration="1500"
               >
                 <Heading>My Work</Heading>
@@ -41,7 +41,7 @@ const Work = () => {
 
               <a   href='https://house-game-nsk.vercel.app/' target='blank'>
                 <ImageContainer
-                data-aos="fade-right"
+               data-aos="zoom-in-up"
                 data-aos-duration="1600"
                 data-aos-delay="50"
                 data-aos-easing="ease-in-out"
@@ -57,7 +57,7 @@ const Work = () => {
 
              <a  href='https://apple-shop-theta.vercel.app/' target='blank'>
                <ImageContainer
-              data-aos="fade-down"
+             data-aos="zoom-in-up"
               data-aos-delay="50"
               data-aos-duration="1500"
               data-aos-easing="ease-in-out"
@@ -70,7 +70,7 @@ const Work = () => {
 
              <a  href='https://mfp.vercel.app/' target='blank'>
                <ImageContainer
-             data-aos="fade-up"
+            data-aos="zoom-in-up"
              data-aos-delay="50"
              data-aos-duration="1700"
              data-aos-easing="ease-in-out"
