@@ -43,6 +43,8 @@ const Work = () => {
                 <ImageContainer
                 data-aos="fade-right"
                 data-aos-duration="1600"
+                data-aos-delay="50"
+                data-aos-easing="ease-in-out"
               >
                 <Image src={Img1} alt="img1" />
                 <Tag>Интернет-магазин Игровых приставок</Tag>
@@ -56,7 +58,9 @@ const Work = () => {
              <a  href='https://apple-shop-theta.vercel.app/' target='blank'>
                <ImageContainer
               data-aos="fade-down"
+              data-aos-delay="50"
               data-aos-duration="1500"
+              data-aos-easing="ease-in-out"
               >
                 <Image src={Img2} alt="img2" />
                 <Tag>Интернет-магазин Apple техники</Tag>
@@ -67,7 +71,9 @@ const Work = () => {
              <a  href='https://mfp.vercel.app/' target='blank'>
                <ImageContainer
              data-aos="fade-up"
+             data-aos-delay="50"
              data-aos-duration="1700"
+             data-aos-easing="ease-in-out"
               >
                 <Image src={Img3} alt="img3" />
                 <Tag>Социальная сеть. *Находится в разработке
