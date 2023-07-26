@@ -4,6 +4,7 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   min-height: 78vh;
+  
   @media (min-width: 1024px) {
     min-height: 85vh;
   }

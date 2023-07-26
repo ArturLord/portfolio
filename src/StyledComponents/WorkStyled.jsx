@@ -3,8 +3,10 @@ import styled from 'styled-components';
 export const Section = styled.section`
   min-height: 110vh;
   display: flex;
-   justify-content: center;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
+
 
   @media (min-width: 1024px) {
     min-height: 95vh;
@@ -12,10 +14,12 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-  width: 1200px;
+  width: 90%;
   margin: 0 auto;
   margin-top: 10px;
+
   @media (min-width: 1024px) {
+    width: 1200px;
   }
 `;
 
@@ -23,12 +27,12 @@ export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+  
 
   @media (min-width: 768px) {
     flex-direction: row;
     gap: 2.5rem;
     text-align: start;
-
   }
 `;
 
@@ -36,7 +40,6 @@ export const SubContainer = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-
 
   &:last-child {
     margin-bottom: 0;
@@ -54,20 +57,21 @@ export const Heading = styled.h2`
   color: #b809c3;
   text-transform: uppercase;
   font-family: 'Orbitron';
+  margin-top: 20px;
   margin-bottom: 16px;
 `;
 
 export const Description = styled.p`
   font-size: 19px;
   margin: 0 10px;
+  font-size: 22px;
   margin-bottom: 2rem;
- 
+
   @media (min-width: 1024px) {
     margin-bottom: 5rem;
     max-width: 20rem;
     font-size: 22px;
-
-  }
+     }
 `;
 
 export const Button = styled.button`
@@ -108,8 +112,6 @@ export const ImageContainer = styled.div`
   cursor: pointer;
   margin-bottom: 15px;
 
-
-
   &:hover {
     & > div:first-child {
       background-color: rgba(0, 0, 0, 0.7);
@@ -119,8 +121,6 @@ export const ImageContainer = styled.div`
       position: absolute;
       display: flex;
       bottom: 10%;
-      /* left: 1.5rem; */
-
     }
 
     & img {
@@ -163,7 +163,7 @@ export const Tag = styled.span`
 
 export const Title = styled.span`
   position: absolute;
-bottom: -100%;
+  bottom: -100%;
   margin-bottom: 20px;
   left: 1.5rem;
   background: linear-gradient(90deg, rgba(92, 238, 224, 1) 0%, rgba(232, 67, 162, 1) 94%);

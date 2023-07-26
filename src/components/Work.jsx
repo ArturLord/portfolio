@@ -21,14 +21,14 @@ import Img3 from '../assets/port4.png';
 
 const Work = () => {
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0.1,
   });
   return (
     <Section ref={ref} id="work">
       <Container>
-        <FlexContainer>
+{inView &&         <FlexContainer>
           <SubContainer>
-            {inView && (
+
               <div
               data-aos="fade-down"
               data-aos-duration="1500"
@@ -38,8 +38,7 @@ const Work = () => {
                 <Button><a href='https://github.com/ArturLord?tab=repositories' target='blank'>
                 Смотреть все проекты</a></Button>
               </div>
-            )}
-            {inView && (
+
               <a   href='https://house-game-nsk.vercel.app/' target='blank'>
                 <ImageContainer
                 data-aos="fade-right"
@@ -50,10 +49,10 @@ const Work = () => {
                 <Title>HouseGame Nsk</Title>
               </ImageContainer>
               </a>
-            )}
+
           </SubContainer>
           <SubContainer>
-            {inView && (
+
              <a  href='https://apple-shop-theta.vercel.app/' target='blank'>
                <ImageContainer
               data-aos="fade-down"
@@ -64,8 +63,7 @@ const Work = () => {
                 <Title>AppleShop</Title>
               </ImageContainer>
              </a>
-            )}
-            {inView && (
+
              <a  href='https://mfp.vercel.app/' target='blank'>
                <ImageContainer
              data-aos="fade-up"
@@ -77,9 +75,8 @@ const Work = () => {
                 <Title>My Favourite Pets</Title>
               </ImageContainer>
              </a>
-            )}
           </SubContainer>
-        </FlexContainer>
+        </FlexContainer>}
       </Container>
     </Section>
   );

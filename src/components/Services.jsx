@@ -50,7 +50,7 @@ const services = [
 
 const Services = () => {
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0.2,
   });
   return (
     <Section ref={ref} id="services">

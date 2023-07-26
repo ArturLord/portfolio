@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 import Service from '../assets/services.png';
 
-
 export const Section = styled.section`
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   min-height: 120vh;
+  
   @media (min-width: 1024px) {
     min-height: 100vh;
   }
@@ -43,7 +43,7 @@ export const FlexContainer = styled.div`
 export const LeftColumn = styled.div`
   text-align: center;
   margin-bottom: 30px;
-background-image: none;
+  background-image: none;
   background-repeat: no-repeat;
   mix-blend-mode: lighten;
 
@@ -54,13 +54,10 @@ background-image: none;
     background-image: url(${Service});
     width: 465px;
   }
-
 `;
 
 export const RightColumn = styled.div`
   flex: 1;
-
-  // Add your right column styles here
 `;
 
 export const Heading2 = styled.h2`

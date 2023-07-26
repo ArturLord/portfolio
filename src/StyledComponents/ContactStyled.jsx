@@ -33,7 +33,6 @@ export const Title = styled.h1`
 
 export const ContactBlock = styled.div`
   display: flex;
-  /* background-color: #000; */
   justify-content: center;
   gap: 2rem;
 
