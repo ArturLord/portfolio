@@ -55,7 +55,7 @@ const Services = () => {
         <FlexContainer>
             <LeftColumn
              data-aos="zoom-in-up"
-             data-aos-duration="1500"
+             data-aos-duration="1200"
              data-aos-delay="50"
              data-aos-offset="150"
              data-aos-easing="ease-in-out"
@@ -75,7 +75,7 @@ const Services = () => {
               data-aos-anchor-placement="top-bottom"
               data-aos-delay="50"
               data-aos-offset="150"
-              data-aos-duration="1000"
+              data-aos-duration="1200"
               data-aos-easing="ease-in-out"
             >
               <div>

@@ -6,6 +6,7 @@ export const Section = styled.section`
    justify-content: center;
   align-items: center;
   padding-bottom: 80px;
+  margin-bottom: 60px;
 
   @media (min-width: 1024px) {
     min-height: 95vh;
@@ -75,7 +76,7 @@ export const Description = styled.p`
 export const Button = styled.button`
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   cursor: pointer;
   background: linear-gradient(
     92.23deg,
