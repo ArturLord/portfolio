@@ -21,26 +21,23 @@ import {
 
 const About = () => {
   const [ref, inView] = useInView({
-    threshold: 0.4,
+    threshold: 0.5,
   });
 
   return (
     <Section ref={ref} id="about">
       <Container>
-        {inView && (
           <ImageContainer
             data-aos="fade-left"
             data-aos-offset="200"
             data-aos-delay="50"
-            data-aos-duration="1200"
+            data-aos-duration="1400"
             data-aos-easing="ease-in-out"
           />
-        )}
-        {inView && (
           <ContentContainer
             data-aos="fade-right"
             data-aos-delay="50"
-            data-aos-duration="1200"
+            data-aos-duration="1400"
             data-aos-easing="ease-in-out"
           >
             <Heading2>About Me</Heading2>
@@ -82,7 +79,6 @@ const About = () => {
               <Link smooth={true} spy={true} to="work"><LinkButton href="#">My Portfolio</LinkButton></Link>
             </ContactBlock>
           </ContentContainer>
-        )}
       </Container>
     </Section>
   );

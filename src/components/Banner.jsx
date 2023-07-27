@@ -36,7 +36,7 @@ const Banner = () => {
               data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="70"
-              data-aos-duration="1200"
+              data-aos-duration="1300"
               data-aos-easing="ease-in-out"
             >
               <Heading>

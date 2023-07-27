@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import Img from '../assets/about.png';
 
 export const Section = styled.section`
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
   z-index: 100;
   min-height: 90vh;
-
+margin-bottom: 80px;
   @media (min-width: 1024px) {
     min-height: 90vh;
   }
@@ -29,7 +29,7 @@ export const Container = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  display: none;
+ display:none;
 
   @media (min-width: 1024px) {
     flex: 1;
@@ -84,7 +84,7 @@ export const FlexContainer = styled.div`
 `;
 
 export const CounterContainer = styled.div`
-  width: 100%;
+  width: 120px;
   & > div:first-child {
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@ export const CounterContainer = styled.div`
   }
 
   & > div:last-child {
-    /* font-family: 'Aldrich'; */
+    font-family: 'Aldrich';
     font-size: 16px;
     letter-spacing: 2px;
     text-align: center;
@@ -130,8 +130,9 @@ export const Button = styled.button`
   &:active {
     transform: translateY(2px);
   }
+
   @media (max-width: 1024px) {
-    font-size: 1.1rem;
+   font-size: 1.1rem;
   }
 `;
 

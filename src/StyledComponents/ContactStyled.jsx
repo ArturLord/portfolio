@@ -4,6 +4,8 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   min-height: 100vh;
+  padding-bottom: 80px;
+
   @media (min-width: 1024px) {
     min-height: 100vh;
   }
@@ -33,6 +35,7 @@ export const Title = styled.h1`
 
 export const ContactBlock = styled.div`
   display: flex;
+  /* background-color: #000; */
   justify-content: center;
   gap: 2rem;
 

@@ -1,20 +1,16 @@
 import React from 'react';
 import { FaGithub, FaTelegram, FaWhatsapp } from 'react-icons/fa';
-import { useInView } from 'react-intersection-observer';
 
 import { Section, Container, Title, ContactBlock } from '../StyledComponents/ContactStyled';
 
 const Contact = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-  });
+
   return (
-    <Section ref={ref} className="section" id="contact">
-      {inView && (
+    <Section className="section" id="contact">
         <Container
-        data-aos="zoom-out-down"
-     data-aos-anchor-placement="top-center"
-          data-aos-duration="1700"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1500"
         >
           <Title>Связаться со мной</Title>
           <ContactBlock>
@@ -32,7 +28,6 @@ const Contact = () => {
             </a>
           </ContactBlock>
         </Container>
-      )}
     </Section>
   );
 };

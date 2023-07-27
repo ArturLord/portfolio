@@ -1,6 +1,5 @@
 import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
-import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-scroll';
 
 import {
@@ -49,20 +48,17 @@ const services = [
 ];
 
 const Services = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.2,
-  });
+
   return (
-    <Section ref={ref} id="services">
+    <Section id="services">
       <Container>
         <FlexContainer>
-          {inView && (
             <LeftColumn
-              data-aos="fade-down"
-              data-aos-anchor-placement="top-bottom"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
+             data-aos="zoom-in-up"
+             data-aos-duration="1500"
+             data-aos-delay="50"
+             data-aos-offset="150"
+             data-aos-easing="ease-in-out"
             >
               <Heading2 className="to-accent">What I Do</Heading2>
               <Heading3>
@@ -71,16 +67,14 @@ const Services = () => {
                 Здесь Вы можете посмотреть мои работы
               </Heading3>
               <Link smooth={true} spy={true} to="work">
-                {' '}
                 <Button>Мои работы</Button>
               </Link>
             </LeftColumn>
-          )}
-          {inView && (
             <RightColumn
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-delay="50"
+              data-aos-offset="150"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
@@ -103,7 +97,6 @@ const Services = () => {
                 })}
               </div>
             </RightColumn>
-          )}
         </FlexContainer>
       </Container>
     </Section>
