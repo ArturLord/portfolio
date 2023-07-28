@@ -9,8 +9,7 @@ export const Section = styled.section`
   align-items: center;
   min-height: 120vh;
   padding-bottom: 80px;
-  margin-bottom: 60px;
-
+  
   @media (min-width: 1024px) {
     min-height: 100vh;
     padding-top: 60px;

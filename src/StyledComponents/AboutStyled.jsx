@@ -7,7 +7,6 @@ display: flex;
 align-items: center;
   z-index: 100;
   min-height: 90vh;
-margin-bottom: 80px;
   @media (min-width: 1024px) {
     min-height: 90vh;
   }

@@ -6,7 +6,6 @@ export const Section = styled.section`
    justify-content: center;
   align-items: center;
   padding-bottom: 80px;
-  margin-bottom: 60px;
 
   @media (min-width: 1024px) {
     min-height: 95vh;
