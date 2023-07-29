@@ -53,7 +53,7 @@ const About = () => {
               <CounterContainer>
                 <div>{inView && <CountUp start={0} end={1} duration={3} />}</div>
                 <div>
-                  Год <br />
+                  Год опыта <br />
                   Работы
                 </div>
               </CounterContainer>

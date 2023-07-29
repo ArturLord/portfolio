@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  min-height: 127vh;
+  min-height: 110vh;
   display: flex;
    justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@ export const Section = styled.section`
 export const Container = styled.div`
   width: 90%;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 40px;
   @media (min-width: 1024px) {
     width: 1200px;
   }
@@ -30,6 +30,7 @@ export const FlexContainer = styled.div`
     flex-direction: row;
     gap: 2.5rem;
     text-align: start;
+    padding: 0 10px;
 
   }
 `;
@@ -105,6 +106,7 @@ export const Button = styled.button`
 export const ImageContainer = styled.div`
   position: relative;
   overflow: hidden;
+  max-height: 320px;
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   cursor: pointer;

@@ -26,6 +26,7 @@ export const Container = styled.div`
     flex-direction: row-reverse;
     align-items: center;
     gap: 100px;
+    margin-top: 90px;
   }
 `;
 
@@ -99,6 +100,12 @@ export const CounterContainer = styled.div`
     font-size: 16px;
     letter-spacing: 2px;
     text-align: center;
+  }
+
+  @media (max-width: 767px) {
+  & > div:last-child {
+    font-size: 12px;
+  }
   }
 `;
 
