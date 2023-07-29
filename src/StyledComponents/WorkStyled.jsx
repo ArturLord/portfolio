@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  min-height: 110vh;
+  min-height: 127vh;
   display: flex;
    justify-content: center;
   align-items: center;
