@@ -5,13 +5,14 @@ import Service from '../assets/services.png';
 export const Section = styled.section`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: normal;
   min-height: 120vh;
   padding-bottom: 80px;
 
   @media (min-width: 1024px) {
     min-height: 100vh;
     padding-top: 60px;
+    align-items: center;
   }
 `;
 

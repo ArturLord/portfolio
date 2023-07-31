@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const Section = styled.section`
   min-height: 110vh;
   display: flex;
-   justify-content: center;
+   justify-content: normal;
   align-items: center;
   padding-bottom: 80px;
 
   @media (min-width: 1024px) {
     min-height: 95vh;
+    align-items: center;
   }
 `;
 
