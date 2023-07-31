@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Section = styled.section`
   display: flex;
   align-items: center;
-  min-height: 88vh;
+  min-height: 85vh;
   padding-bottom: 80px;
   @media (min-width: 1024px) {
     min-height: 85vh;
