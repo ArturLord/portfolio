@@ -15,7 +15,7 @@ export const Section = styled.section`
 export const Container = styled.div`
   width: 90%;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 10px;
   @media (min-width: 1024px) {
     width: 1200px;
   }

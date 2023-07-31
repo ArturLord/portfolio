@@ -67,7 +67,7 @@ const Services = () => {
                 Здесь Вы можете посмотреть мои работы
               </Heading3>
               <Link smooth={true} spy={true} to="work">
-                <Button>Мои работы</Button>
+                {/* <Button>Мои работы</Button> */}
               </Link>
             </LeftColumn>
             <RightColumn

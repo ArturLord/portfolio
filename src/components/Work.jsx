@@ -29,7 +29,7 @@ const Work = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="1200"
                 data-aos-delay="50"
-                data-aos-offset="150"
+                // data-aos-offset="150"
                 data-aos-easing="ease-in-out"
               >
                 <Heading>My Work</Heading>
