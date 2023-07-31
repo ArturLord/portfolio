@@ -9,7 +9,7 @@ export const Section = styled.section`
 
   @media (min-width: 1024px) {
     min-height: 95vh;
-    align-items: center;
+   
   }
 `;
 

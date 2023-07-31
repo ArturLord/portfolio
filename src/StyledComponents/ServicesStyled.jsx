@@ -69,6 +69,7 @@ export const Heading2 = styled.h2`
   color: #b809c3;
   font-family: 'Orbitron';
   text-transform: uppercase;
+  margin-top: 10px;
   margin-bottom: 25px;
 `;
 
