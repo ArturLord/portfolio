@@ -10,7 +10,6 @@ import {
   LeftColumn,
   Heading2,
   Heading3,
-  Button,
   Heading4,
   Description,
   TextLink,
@@ -70,10 +69,6 @@ const Services = () => {
                 <br />
                 Здесь Вы можете посмотреть мои работы
               </Heading3>
-              <Link smooth={true} spy={true} to="work">
-                {' '}
-                <Button>Мои работы</Button>
-              </Link>
             </LeftColumn>
           )}
           {inView && (
@@ -93,12 +88,10 @@ const Services = () => {
                         <Description>{desc}</Description>
                       </ServiceContent>
                       <LinkContainer>
-                        <LinkButton href={url} target="blank">
+                        <LinkButton href={url} target='blank'>
                           <BsArrowUpRight />
                         </LinkButton>
-                        <TextLink href={url} target="blank">
-                          {link}
-                        </TextLink>
+                        <TextLink href={url} target='blank'>{link}</TextLink>
                       </LinkContainer>
                     </ServiceItem>
                   );

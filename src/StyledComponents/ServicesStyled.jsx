@@ -70,41 +70,11 @@ export const Heading2 = styled.h2`
 
 export const Heading3 = styled.h3`
   max-width: 400px;
-  font-size: 24px;
+  font-size: 23px;
   margin-bottom: 36px;
   font-family: 'Aldrich';
+  font-weight: 400;
   line-height: 1.3;
-`;
-
-export const Button = styled.button`
-  padding: 0.6rem 1.8rem;
-  font-size: 1.2rem;
-  font-family: 'Aldrich';
-  margin-bottom: 5px;
-  border-radius: 40px;
-  cursor: pointer;
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
-  );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
-
-  &:hover {
-    background: linear-gradient(
-      92.23deg,
-      #406aff 21.43%,
-      #3bace2 50.63%,
-      #b936ee 100%,
-      #ff56f6 117.04%
-    );
-  }
-
-  &:active {
-    transform: translateY(2px);
-  }
 `;
 
 export const ServiceItem = styled.div`

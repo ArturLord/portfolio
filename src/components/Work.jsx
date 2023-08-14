@@ -32,6 +32,11 @@ const Work = () => {
               <div data-aos="fade-down" data-aos-duration="1500">
                 <Heading>My Work</Heading>
                 <Description>Здесь Вы можете нажать на проект и перейти к просмотру</Description>
+                <Button>
+                  <a href="https://github.com/ArturLord?tab=repositories" target="blank">
+                    Смотреть все проекты
+                  </a>
+                </Button>
               </div>
             )}
             {inView && (

@@ -16,6 +16,7 @@ export const Container = styled.div`
   margin: 0 auto;
   @media (min-width: 1024px) {
     width: 1200px;
+    margin-top: 20px;
   }
 `;
 
@@ -62,6 +63,36 @@ export const Description = styled.p`
   @media (min-width: 1024px) {
     margin-bottom: 5rem;
     max-width: 20rem;
+  }
+`;
+
+export const Button = styled.button`
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(
+      92.23deg,
+      #406aff 21.43%,
+      #3bace2 50.63%,
+      #b936ee 100%,
+      #ff56f6 117.04%
+    );
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 `;
 
