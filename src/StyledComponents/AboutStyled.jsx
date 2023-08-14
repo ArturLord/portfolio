@@ -94,9 +94,13 @@ export const CounterContainer = styled.div`
 
   & > div:last-child {
     font-family: 'Aldrich';
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 2px;
     text-align: center;
+
+    @media (min-width: 1024px) {
+      font-size: 16px;
+  }
   }
 `;
 
