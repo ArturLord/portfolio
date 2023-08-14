@@ -29,54 +29,39 @@ const Work = () => {
         <FlexContainer>
           <SubContainer>
             {inView && (
-              <div
-              data-aos="fade-down"
-              data-aos-duration="1500"
-              >
+              <div data-aos="fade-down" data-aos-duration="1500">
                 <Heading>My Work</Heading>
                 <Description>Здесь Вы можете нажать на проект и перейти к просмотру</Description>
-                <Button><a href='https://github.com/ArturLord?tab=repositories' target='blank'>
-                Смотреть все проекты</a></Button>
               </div>
             )}
             {inView && (
-              <a   href='https://house-game-nsk.vercel.app/' target='blank'>
-                <ImageContainer
-                data-aos="fade-right"
-                data-aos-duration="1600"
-              >
-                <Image src={Img1} alt="img1" />
-                <Tag>Интернет-магазин Игровых приставок</Tag>
-                <Title>HouseGame Nsk</Title>
-              </ImageContainer>
+              <a href="https://house-game-nsk.vercel.app/" target="blank">
+                <ImageContainer data-aos="fade-right" data-aos-duration="1600">
+                  <Image src={Img1} alt="img1" />
+                  <Tag>Интернет-магазин Игровых приставок</Tag>
+                  <Title>HouseGame Nsk</Title>
+                </ImageContainer>
               </a>
             )}
           </SubContainer>
           <SubContainer>
             {inView && (
-             <a  href='https://apple-shop-theta.vercel.app/' target='blank'>
-               <ImageContainer
-              data-aos="fade-down"
-              data-aos-duration="1500"
-              >
-                <Image src={Img2} alt="img2" />
-                <Tag>Интернет-магазин Apple техники</Tag>
-                <Title>AppleShop</Title>
-              </ImageContainer>
-             </a>
+              <a href="https://apple-shop-theta.vercel.app/" target="blank">
+                <ImageContainer data-aos="fade-down" data-aos-duration="1500">
+                  <Image src={Img2} alt="img2" />
+                  <Tag>Интернет-магазин Apple техники</Tag>
+                  <Title>AppleShop</Title>
+                </ImageContainer>
+              </a>
             )}
             {inView && (
-             <a  href='https://mfp.vercel.app/' target='blank'>
-               <ImageContainer
-             data-aos="fade-up"
-             data-aos-duration="1700"
-              >
-                <Image src={Img3} alt="img3" />
-                <Tag>Социальная сеть. *Находится в разработке
-                </Tag>
-                <Title>My Favourite Pets</Title>
-              </ImageContainer>
-             </a>
+              <a href="https://mfp.vercel.app/" target="blank">
+                <ImageContainer data-aos="fade-up" data-aos-duration="1700">
+                  <Image src={Img3} alt="img3" />
+                  <Tag>Социальная сеть. *Находится в разработке</Tag>
+                  <Title>My Favourite Pets</Title>
+                </ImageContainer>
+              </a>
             )}
           </SubContainer>
         </FlexContainer>

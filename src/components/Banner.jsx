@@ -5,7 +5,6 @@ import { TypeAnimation } from 'react-type-animation';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-scroll';
 
-
 import {
   Section,
   Container,
@@ -47,17 +46,25 @@ const Banner = () => {
                 <TypeAnimation sequence={['Frontend Developer', 4000]} speed={10} />
               </SubHeading>
               <ContactBlock>
-                <Link smooth={true} spy={true} to="contact"><Button>Contact me</Button></Link>
-               <Link smooth={true} spy={true} to="work"> <LinkButton>My Portfolio</LinkButton></Link>
+                <Link smooth={true} spy={true} to="contact">
+                  <Button>Contact me</Button>
+                </Link>
+                <Link smooth={true} spy={true} to="work">
+                  {' '}
+                  <LinkButton>My Portfolio</LinkButton>
+                </Link>
               </ContactBlock>
               <SocialLinksContainer>
-                <a href='https://github.com/ArturLord?tab=repositories' target='blank'>
+                <a href="https://github.com/ArturLord?tab=repositories" target="blank">
                   <FaGithub />
                 </a>
-                <a href="https://t.me/your1ord" target='blank'>
+                <a href="https://t.me/your1ord" target="blank">
                   <FaTelegram />
                 </a>
-                <a href="https://wa.me/79130668832?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B" target='blank'>
+                <a
+                  href="https://wa.me/79130668832?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B"
+                  target="blank"
+                >
                   <FaWhatsapp />
                 </a>
               </SocialLinksContainer>

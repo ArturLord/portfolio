@@ -3,7 +3,6 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-scroll';
 
-
 import {
   Section,
   Container,
@@ -56,7 +55,7 @@ const About = () => {
               <CounterContainer>
                 <div>{inView && <CountUp start={0} end={1} duration={3} />}</div>
                 <div>
-                  Год <br />
+                  Год опыта <br />
                   Работы
                 </div>
               </CounterContainer>
@@ -78,8 +77,12 @@ const About = () => {
               </CounterContainer>
             </FlexContainer>
             <ContactBlock>
-              <Link smooth={true} spy={true} to="contact"><Button>Contact me</Button></Link>
-              <Link smooth={true} spy={true} to="work"><LinkButton href="#">My Portfolio</LinkButton></Link>
+              <Link smooth={true} spy={true} to="contact">
+                <Button>Contact me</Button>
+              </Link>
+              <Link smooth={true} spy={true} to="work">
+                <LinkButton href="#">My Portfolio</LinkButton>
+              </Link>
             </ContactBlock>
           </ContentContainer>
         )}

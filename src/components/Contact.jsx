@@ -26,7 +26,10 @@ const Contact = () => {
               <FaTelegram />
               <h3>Telegram</h3>
             </a>
-            <a href="https://wa.me/79130668832?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B" target="blank">
+            <a
+              href="https://wa.me/79130668832?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B"
+              target="blank"
+            >
               <FaWhatsapp />
               <h3>WhatsApp</h3>
             </a>

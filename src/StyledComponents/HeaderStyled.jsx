@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 export const HeaderBlock = styled.header`
   max-width: 1200px;
   margin: 0 auto;
-`
+`;
 
 export const Container = styled.div`
   display: flex;
@@ -11,10 +11,10 @@ export const Container = styled.div`
   margin: 0 15px;
   justify-content: space-between;
   align-items: center;
-`
+`;
 
 export const FirstName = styled.h2`
-background: linear-gradient(
+  background: linear-gradient(
     92.23deg,
     #406aff 21.43%,
     #3bace2 50.63%,
@@ -23,13 +23,13 @@ background: linear-gradient(
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-`
+`;
 
 export const Button = styled.button`
-   padding: 0.8rem 1.8rem;
+  padding: 0.8rem 1.8rem;
   font-size: 1.2rem;
   font-weight: 500;
-  border-radius: 40px;  
+  border-radius: 40px;
   font-family: 'Orbitron';
   cursor: pointer;
   background: linear-gradient(
@@ -43,12 +43,12 @@ export const Button = styled.button`
 
   &:hover {
     background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
+      92.23deg,
+      #406aff 21.43%,
+      #3bace2 50.63%,
+      #b936ee 100%,
+      #ff56f6 117.04%
+    );
   }
 
   &:active {

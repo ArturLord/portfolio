@@ -93,10 +93,12 @@ const Services = () => {
                         <Description>{desc}</Description>
                       </ServiceContent>
                       <LinkContainer>
-                        <LinkButton href={url} target='blank'>
+                        <LinkButton href={url} target="blank">
                           <BsArrowUpRight />
                         </LinkButton>
-                        <TextLink href={url} target='blank'>{link}</TextLink>
+                        <TextLink href={url} target="blank">
+                          {link}
+                        </TextLink>
                       </LinkContainer>
                     </ServiceItem>
                   );
