@@ -11,7 +11,7 @@ const Nav = () => {
     <NavContainer>
       <Container>
         <NavWrapper>
-          <Link activeClass="active" smooth={true} spy={true} offset={-100} to="home">
+          <Link activeClass="active" smooth={true} spy={true} offset={-200} to="home">
             <BiHomeAlt />
           </Link>
           <Link activeClass="active" smooth={true} spy={true} to="about">

@@ -6,9 +6,10 @@ export const Section = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 120vh;
+  min-height: 78vh;
+
   @media (min-width: 1024px) {
-    min-height: 100vh;
+    min-height: 85vh;
   }
 `;
 

@@ -1,19 +1,20 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  min-height: 110vh;
+  min-height: 78vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
   @media (min-width: 1024px) {
-    min-height: 95vh;
+    min-height: 85vh;
   }
 `;
 
 export const Container = styled.div`
   width: 90%;
   margin: 0 auto;
+
   @media (min-width: 1024px) {
     width: 1200px;
     margin-top: 20px;
@@ -43,7 +44,7 @@ export const SubContainer = styled.div`
 
   @media (min-width: 768px) {
     margin-bottom: 0;
-    gap: 0;
+    gap: 10px;
   }
 `;
 
@@ -113,7 +114,6 @@ export const ImageContainer = styled.div`
       position: absolute;
       display: flex;
       bottom: 10%;
-      /* left: 1.5rem; */
     }
 
     & img {
@@ -128,6 +128,10 @@ export const ImageContainer = styled.div`
     & > div:last-child {
       bottom: 2.5rem;
     }
+  }
+
+  @media (min-width: 1024px) {
+    margin-bottom: 0;
   }
 `;
 
@@ -147,6 +151,7 @@ export const Tag = styled.span`
   background: linear-gradient(90deg, rgba(94, 246, 231, 1) 0%, #3ff03f 94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
   @media (min-width: 1024px) {
     bottom: -10%;
     left: 1.5rem;
@@ -168,7 +173,6 @@ export const Title = styled.span`
 
   @media (min-width: 1024px) {
     margin-bottom: 25px;
-
     font-size: 25px;
   }
 `;

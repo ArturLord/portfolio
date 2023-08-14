@@ -1,7 +1,10 @@
 import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
-import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-scroll';
+
+import { motion } from 'framer-motion';
+
+import { fadeIn } from '../variants';
 
 import {
   Section,
@@ -48,57 +51,52 @@ const services = [
 ];
 
 const Services = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-  });
   return (
-    <Section ref={ref} id="services">
+    <Section id="services">
       <Container>
         <FlexContainer>
-          {inView && (
-            <LeftColumn
-              data-aos="fade-down"
-              data-aos-anchor-placement="top-bottom"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <Heading2 className="to-accent">What I Do</Heading2>
-              <Heading3>
-                Я Frontend разработчик с небольшим опытом работы.
-                <br />
-                Здесь Вы можете посмотреть мои работы
-              </Heading3>
-            </LeftColumn>
-          )}
-          {inView && (
-            <RightColumn
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-bottom"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div>
-                {services.map(({ name, desc, link, url }, i) => {
-                  return (
-                    <ServiceItem key={i}>
-                      <ServiceContent>
-                        <Heading4>{name}</Heading4>
-                        <Description>{desc}</Description>
-                      </ServiceContent>
-                      <LinkContainer>
-                        <LinkButton href={url} target='blank'>
-                          <BsArrowUpRight />
-                        </LinkButton>
-                        <TextLink href={url} target='blank'>{link}</TextLink>
-                      </LinkContainer>
-                    </ServiceItem>
-                  );
-                })}
-              </div>
-            </RightColumn>
-          )}
+          <LeftColumn
+            as={motion.div}
+            variants={fadeIn('right', 0.3)}
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3 }}
+          >
+            <Heading2 className="to-accent">What I Do</Heading2>
+            <Heading3>
+              Я Frontend разработчик с небольшим опытом работы.
+              <br />
+              Здесь Вы можете посмотреть мои работы
+            </Heading3>
+          </LeftColumn>
+          <RightColumn
+            as={motion.div}
+            variants={fadeIn('up', 0.5)}
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3 }}
+          >
+            <div>
+              {services.map(({ name, desc, link, url }, i) => {
+                return (
+                  <ServiceItem key={i}>
+                    <ServiceContent>
+                      <Heading4>{name}</Heading4>
+                      <Description>{desc}</Description>
+                    </ServiceContent>
+                    <LinkContainer>
+                      <LinkButton href={url} target="blank">
+                        <BsArrowUpRight />
+                      </LinkButton>
+                      <TextLink href={url} target="blank">
+                        {link}
+                      </TextLink>
+                    </LinkContainer>
+                  </ServiceItem>
+                );
+              })}
+            </div>
+          </RightColumn>
         </FlexContainer>
       </Container>
     </Section>

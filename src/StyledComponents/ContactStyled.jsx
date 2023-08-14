@@ -17,6 +17,7 @@ export const Container = styled.div`
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
   border-radius: 20px;
   margin: 0 auto;
+
   @media (max-width: 768px) {
     width: 85%;
   }
@@ -35,7 +36,6 @@ export const Title = styled.h1`
 
 export const ContactBlock = styled.div`
   display: flex;
-  /* background-color: #000; */
   justify-content: center;
   gap: 2rem;
 
@@ -70,6 +70,7 @@ export const ContactBlock = styled.div`
 
   @media (min-width: 1024px) {
     gap: 4rem;
+
     svg {
       width: 177px;
       height: 177px;
@@ -79,6 +80,7 @@ export const ContactBlock = styled.div`
 
   @media (max-width: 628px) {
     gap: 0.2rem;
+
     svg {
       width: 42px;
       height: 42px;

@@ -4,6 +4,7 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   min-height: 78vh;
+
   @media (min-width: 1024px) {
     min-height: 85vh;
   }
@@ -20,6 +21,7 @@ export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
   @media (min-width: 1024px) {
     flex-direction: row;
     justify-content: space-between;
@@ -32,6 +34,7 @@ export const Content = styled.div`
   flex: 1;
   text-align: center;
   font-family: 'secondary';
+
   @media (min-width: 1024px) {
     text-align: left;
   }
@@ -41,6 +44,7 @@ export const Heading = styled.h1`
   font-size: 45px;
   font-weight: bold;
   line-height: 1.1;
+
   @media (min-width: 1024px) {
     font-size: 80px;
   }
@@ -57,6 +61,7 @@ export const SubHeading = styled.div`
   span {
     margin-right: 4px;
   }
+
   @media (min-width: 1024px) {
     font-size: 36px;
   }
@@ -144,6 +149,7 @@ export const SocialLinksContainer = styled.div`
 
 export const AvatarImage = styled.img`
   display: none;
+
   @media (min-width: 1024px) {
     display: block;
     max-width: 420px;

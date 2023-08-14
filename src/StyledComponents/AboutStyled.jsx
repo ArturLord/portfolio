@@ -6,10 +6,10 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   z-index: 100;
-  min-height: 90vh;
+  min-height: 95vh;
 
   @media (min-width: 1024px) {
-    min-height: 90vh;
+    min-height: 85vh;
   }
 `;
 
@@ -100,7 +100,7 @@ export const CounterContainer = styled.div`
 
     @media (min-width: 1024px) {
       font-size: 16px;
-  }
+    }
   }
 `;
 
