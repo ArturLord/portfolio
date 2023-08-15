@@ -32,13 +32,13 @@ const services = [
   },
   {
     name: 'HouseGame Nsk',
-    desc: 'Интернет-магазин по продаже Игровых приставок',
+    desc: 'Интернет-магазин по продаже игровых приставок',
     link: 'Смотреть',
     url: 'https://house-game-nsk.vercel.app/',
   },
   {
     name: 'Easy Questions',
-    desc: 'Небольщая викторина с несложными вопросами',
+    desc: 'Небольшая викторина с несложными вопросами',
     link: 'Смотреть',
     url: 'https://easy-questions.vercel.app/',
   },
