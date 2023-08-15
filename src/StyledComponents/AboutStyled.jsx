@@ -6,7 +6,7 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   z-index: 100;
-  min-height: 78vh;
+  min-height: 95vh;
 
   @media (min-width: 1024px) {
     min-height: 85vh;
