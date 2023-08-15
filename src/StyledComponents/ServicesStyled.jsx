@@ -16,13 +16,14 @@ export const Section = styled.section`
 export const Container = styled.div`
   display: flex;
   width: 75%;
-  padding-top: 40px;
+  padding-top: 0;
   flex-direction: column;
   gap: 10px;
 
   @media (min-width: 1024px) {
     flex-direction: row;
     align-items: center;
+    padding-top: 40px;
     gap: 20px;
   }
 `;
