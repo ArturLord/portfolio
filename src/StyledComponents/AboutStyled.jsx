@@ -9,7 +9,7 @@ export const Section = styled.section`
   min-height: 95vh;
 
   @media (min-width: 1024px) {
-    min-height: 85vh;
+    min-height: 90vh;
   }
 `;
 
