@@ -1,18 +1,20 @@
 import React from 'react';
 
-import { HeaderBlock, Container, FirstName, Button } from '../StyledComponents/HeaderStyled';
-
 const Header = () => {
   return (
-    <HeaderBlock>
-      <Container>
-        <a href="#">
-          <FirstName>Artur</FirstName>
+    <header className='py-8'>
+      <div className='container mx-auto'>
+      <div className='flex justify-between items-center'>
+      <a href="#">
+          <div className='text-2xl font-primary font-semibold'>
+          <h2 className='text-gradient'>Artur</h2>
           <h2>Karsten</h2>
+          </div>
         </a>
-        <Button className="btn btn-sm">Programmer</Button>
-      </Container>
-    </HeaderBlock>
+        <button className="btn btn-sm">Programmer</button>
+      </div>
+      </div>
+    </header>
   );
 };
 
