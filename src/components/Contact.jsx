@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 
 const Contact = () => {
   return (
-    <section className="py-[250px]  lg:section" id="contact">
+    <section className="py-16  lg:section" id="contact">
       <div className="container mx-auto">
         <motion.div
           variants={fadeIn('up', 0.3)}

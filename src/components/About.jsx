@@ -22,7 +22,7 @@ const About = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 mx-auto w-[210px] bg-about bg-contain bg-no-repeat h-[520px] mix-blend-lighten"
+            className="flex-1 mx-auto w-[210px] h-[210px] lg:h-3/4 bg-about bg-contain bg-no-repeat h-[520px] mix-blend-lighten"
           >
           </motion.div>
           <motion.div
@@ -47,7 +47,7 @@ const About = () => {
                 <div className="text-[40px]  font-tertiary text-gradient mb-2">
                   {inView && <CountUp start={0} end={1} duration={3} />}
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
+                <div className="text-[13px] font-primary text-sm tracking-[2px]">
                   Год опыта <br /> Работы
                 </div>
               </div>
@@ -55,7 +55,7 @@ const About = () => {
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView && <CountUp start={0} end={7} duration={3} />}
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
+                <div className="text-[13px] font-primary text-sm tracking-[2px]">
                   Проектов <br /> Завершено
                 </div>
               </div>
@@ -63,7 +63,7 @@ const About = () => {
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView && <CountUp start={0} end={1} duration={3} />}
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
+                <div className="text-[13px] font-primary text-sm tracking-[2px]">
                   Проект в <br /> Разработке
                 </div>
               </div>

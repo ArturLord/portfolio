@@ -33,8 +33,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[26px] lg:text-[36px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className="mr-2">Я Frontend</span>
-              <TypeAnimation sequence={['Developer', 2000]} speed={50} repeat={Infinity} />
+              <span className="mr-2">Я Frontend Developer</span>
             </motion.div>
             <motion.div
               variants={fadeIn('up', 0.5)}
