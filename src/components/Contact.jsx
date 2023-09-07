@@ -7,7 +7,7 @@ import { fadeIn } from '../variants';
 
 const Contact = () => {
   return (
-    <section className="py-[200px] min-h-[120vh]  lg:section" id="contact">
+    <section className="py-[200px] min-h-[120vh]  lg:section lg:min-h-[100vh]" id="contact">
       <div className="container mx-auto">
         <motion.div
           variants={fadeIn('up', 0.3)}
@@ -16,7 +16,7 @@ const Contact = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="text-center border-2 rounded-3xl border-white box bg-black/10"
         >
-          <h1 className="font-semibold text-4xl pt-10 pt-7 mb-11 sm:text-5xl">Связаться со мной</h1>
+          <h1 className="font-semibold text-3xl py-[7px] pt-10 pt-7 mb-11 sm:py-0 sm:text-5xl">Связаться со мной</h1>
           <div className="flex justify-center fil font-semibold font-primary gap-4 sm:gap-8 lg:gap-16">
             <a
               className="pt-[30px] flex flex-col items-center"
