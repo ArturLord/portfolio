@@ -25,11 +25,7 @@ const About = () => {
             className="flex-1 bg-about mx-auto w-[240px] bg-contain bg-no-repeat lg:h-[520px] mix-blend-lighten"
           >
           </motion.div>
-          <motion.div
-            variants={fadeIn('right', 0.3)}
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
+          <div
             className="flex-row items-center lg:flex-1"
           >
             <h2 className="h2 text-accent">About me</h2>
@@ -77,7 +73,7 @@ const About = () => {
               </a>
               </Link>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
