@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section className="section" ref={ref} id="about">
       <div className="container mx-auto text-center w-[960px] flex justify-center lg:block lg:text-left">
-        <div className="flex flex-col gap-y-10 lg:flex-row-reverse lg:items-center justify-center lg:gap-x-40 lg:gap-y-0 h-[115vh]">
+        <div className="flex flex-col gap-y-10 lg:flex-row-reverse lg:items-center justify-center lg:gap-x-40 lg:gap-y-0 h-[865px]">
           <motion.div
             variants={fadeIn('left', 0.5)}
             initial="hidden"
@@ -47,7 +47,7 @@ const About = () => {
                 <div className="text-[40px]  font-tertiary text-gradient mb-2">
                   {inView && <CountUp start={0} end={1} duration={3} />}
                 </div>
-                <div className="text-[13px] font-primary text-sm tracking-[2px]">
+                <div className="text-[13px] font-primary text-sm tracking-[1px]">
                   Год опыта <br /> Работы
                 </div>
               </div>
@@ -55,7 +55,7 @@ const About = () => {
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView && <CountUp start={0} end={7} duration={3} />}
                 </div>
-                <div className="text-[13px] font-primary text-sm tracking-[2px]">
+                <div className="text-[13px] font-primary text-sm tracking-[1px]">
                   Проектов <br /> Завершено
                 </div>
               </div>
@@ -63,7 +63,7 @@ const About = () => {
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView && <CountUp start={0} end={1} duration={3} />}
                 </div>
-                <div className="text-[13px] font-primary text-sm tracking-[2px]">
+                <div className="text-[13px] font-primary text-sm tracking-[1px]">
                   Проект в <br /> Разработке
                 </div>
               </div>
