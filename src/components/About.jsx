@@ -35,7 +35,6 @@ const About = () => {
             <h2 className="h2 text-accent">About me</h2>
             <p className='text-[24px] mb-2'>Навыки:</p>
             <h3 className="text-[22px] mb-8">
-              {' '}
               - TypeScript / JavaScript (ES6+) <br />
               - ReactJS / Redux Toolkit <br />
               - SCSS / styled-components / CSS <br />
