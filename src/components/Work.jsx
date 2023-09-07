@@ -25,7 +25,7 @@ const Work = () => {
                 My Latest <br />
                 Work
               </h2>
-              <p className="max-w-sm mb-16">
+              <p className="text-[22px] lg:max-w-sm mb-12">
                 Здесь Вы можете нажать на проект и перейти к просмотру
               </p>
               <button className="btn btn-sm">
@@ -42,11 +42,11 @@ const Work = () => {
                   src={Img1}
                   alt="img1"
                 />
-                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-[25px] text-gradient">HouseGame Nsk</span>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-[68px] sm:group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text[12px] sm:text-[25px] text-gradient">HouseGame Nsk</span>
                 </div>
-                <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50">
-                  <span className="text-2xl text-white">Интернет-магазин Игровых приставок</span>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-9 sm:group-hover:bottom-16 transition-all duration-700 z-50">
+                  <span className="sm:text-2xl text-white">Интернет-магазин Игровых приставок</span>
                 </div>
               </div>
             </a>
@@ -66,11 +66,11 @@ const Work = () => {
                   src={Img2}
                   alt="img2"
                 />
-                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-[25px] text-gradient">AppleShop</span>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-[68px] sm:group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text[12px] sm:text-[25px] text-gradient">AppleShop</span>
                 </div>
-                <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50">
-                  <span className="text-2xl text-white">Интернет-магазин Apple техники</span>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-9 sm:group-hover:bottom-16 transition-all duration-700 z-50">
+                  <span className="sm:text-2xl text-white">Интернет-магазин Apple техники</span>
                 </div>
               </div>
             </a>
@@ -82,11 +82,11 @@ const Work = () => {
                   src={Img3}
                   alt="img3"
                 />
-                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-[25px] text-gradient">My Favourite Pets</span>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-[68px] sm:group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text[12px] sm:text-[25px] text-gradient">My Favourite Pets</span>
                 </div>
-                <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50">
-                  <span className="text-2xl text-white">
+                <div className="absolute -bottom-full left-12 group-hover:bottom-9 sm:group-hover:bottom-16 transition-all duration-700 z-50">
+                  <span className="sm:text-2xl text-white">
                     Социальная сеть. *Находится в разработке
                   </span>
                 </div>
