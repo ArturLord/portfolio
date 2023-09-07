@@ -46,7 +46,7 @@ const Work = () => {
                   <span className="text[12px] sm:text-[25px] text-gradient">HouseGame Nsk</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-9 sm:group-hover:bottom-16 transition-all duration-700 z-50">
-                  <span className="sm:text-2xl text-white">Интернет-магазин Игровых приставок</span>
+                  <span className="text-[14px] sm:text-2xl text-white">Интернет-магазин Игровых приставок</span>
                 </div>
               </div>
             </a>
@@ -70,7 +70,7 @@ const Work = () => {
                   <span className="text[12px] sm:text-[25px] text-gradient">AppleShop</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-9 sm:group-hover:bottom-16 transition-all duration-700 z-50">
-                  <span className="sm:text-2xl text-white">Интернет-магазин Apple техники</span>
+                  <span className="text-[14px] sm:text-2xl text-white">Интернет-магазин Apple техники</span>
                 </div>
               </div>
             </a>
@@ -86,7 +86,7 @@ const Work = () => {
                   <span className="text[12px] sm:text-[25px] text-gradient">My Favourite Pets</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-9 sm:group-hover:bottom-16 transition-all duration-700 z-50">
-                  <span className="sm:text-2xl text-white">
+                  <span className="text-[14px] sm:text-2xl text-white">
                     Социальная сеть. *Находится в разработке
                   </span>
                 </div>
