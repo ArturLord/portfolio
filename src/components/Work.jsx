@@ -25,7 +25,7 @@ const Work = () => {
                 My Latest <br />
                 Work
               </h2>
-              <p className="text-[22px] lg:max-w-sm mb-12">
+              <p className="sm:text-[22px] lg:max-w-sm mb-12">
                 Здесь Вы можете нажать на проект и перейти к просмотру
               </p>
               <button className="btn btn-sm">
@@ -56,7 +56,7 @@ const Work = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10 cursor-pointer"
+            className="flex-1 flex flex-col gap-y-4 lg:gap-y-10 cursor-pointer"
           >
             <a href="https://apple-shop-theta.vercel.app/" target="blank">
               <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">

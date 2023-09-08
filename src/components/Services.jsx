@@ -46,7 +46,7 @@ const Services = () => {
             className="flex-1 lg:bg-services lg:bg-bottom text-center lg:text-left bg-no-repeat max-blend-lighten mb-9 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6">What I Do</h2>
-            <h3 className="text-[26px]  lg:max-w-[455px] mb-12">
+            <h3 className="sm:text-[26px]  lg:max-w-[455px] mb-12">
               Я Frontend разработчик с небольшим опытом работы. <br /> Здесь Вы можете посмотреть
               мои работы
             </h3>
