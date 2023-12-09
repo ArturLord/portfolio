@@ -35,7 +35,7 @@ const About = () => {
               - ReactJS / Redux Toolkit <br />
               - SCSS / styled-components / CSS <br />
               - Material UI / AOS <br />
-              - ESLint / Prettier <br />- Git
+              - REST API <br />- Git
             </h3>
             <div className="flex gap-x-12 lg:gap-x-10 text-center mb-12">
               <div>
