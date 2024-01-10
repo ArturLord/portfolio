@@ -48,7 +48,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView && <CountUp start={0} end={7} duration={3} />}
+                  {inView && <CountUp start={0} end={30} duration={3} />}
                 </div>
                 <div className="text-[13px] font-primary text-sm tracking-[1px]">
                   Проектов <br /> Завершено
@@ -56,10 +56,10 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView && <CountUp start={0} end={1} duration={3} />}
+                  {inView && <CountUp start={0} end={4} duration={3} />}
                 </div>
                 <div className="text-[13px] font-primary text-sm tracking-[1px]">
-                  Проект в <br /> Разработке
+                  Проекта в <br /> Разработке
                 </div>
               </div>
             </div>
